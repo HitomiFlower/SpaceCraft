@@ -1,7 +1,8 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using Unity.Burst;
 using UnityEngine;
 using UnityEngine.Jobs;
 
+[BurstCompile]
 public struct MovementJob : IJobParallelForTransform
 {
 	public float moveSpeed;

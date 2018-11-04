@@ -5,7 +5,6 @@ using UnityEngine.Jobs;
 [BurstCompile]
 public struct MovementJob : IJobParallelForTransform
 {
-	public float moveSpeed;
 	public float topBound;
 	public float bottomBound;
 	public float deltaTime;
